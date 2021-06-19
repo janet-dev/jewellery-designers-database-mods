@@ -14,7 +14,7 @@ Some visual analysis can be seen in the 'G-Tableau' folder.
 <br><br>
 The initial build and project queries are in the file 'JDornan-silversmithUK-mods.sql'.
 <br><br>
-See the 'EER-Diag.png' for the visual layout of the project.
+See the 'My EER Diagram.png' for the visual layout of the project.
 <br><br>
 The mysqldump is 'JewelleryStore_mods.sql' - use this to restore the database.
 For macOS machines see the instruction file 'mysqldump on Apple mac - mods.rtfd' of
