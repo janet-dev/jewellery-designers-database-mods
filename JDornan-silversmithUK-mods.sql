@@ -1,5 +1,12 @@
 -- Janet Dornan - Jewellery Designer's Store
 
+-- This code was orginally submitted as a Code First Girls solo project
+-- on the completion of their 8-week online evening course, Data and SQL.
+-- See the file 'Project Requirements.png' for the objectives.
+-- The code here has some improvements on the original code.
+
+-- The original idea for this project was inspired by my hobby of jewellery making.
+
 CREATE DATABASE silversmithUK_mods; 		-- with PRIMARY & FOREIGN keys
 USE silversmithUK_mods;
 
@@ -512,10 +519,10 @@ SELECT
     ORDER BY accounts_month;
 
 -- ----------------------------------------------------------
--- See TABLEAU for visual analysis!!!
+-- See TABLEAU folder for visual analysis!!!
 -- ----------------------------------------------------------
 -- THE END -- 
--- Thank you CFG Instructors: Charlotte, Mabel & Sahba 
+-- Thank you Code First Girls Instructors: Charlotte, Mabel & Sahba 
 -- for all your help and inspiration!!!
 -- ----------------------------------------------------------
 
