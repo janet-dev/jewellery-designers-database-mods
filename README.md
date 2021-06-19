@@ -1,5 +1,5 @@
 # jewellery-designers-database-mods
-Improvements to the CFG:SQL project
+CFG: SQL project improvements
 <br><br>
 CFG Project: MySQL database for a jewellery designer's store.
 <br><br>
@@ -12,10 +12,11 @@ The queries and data analysis are outlined the file, 'Project Requirements.png'.
 <br><br>
 Some visual analysis can be seen in the 'G-Tableau' folder.
 <br><br>
-The initial build and project queries are in folder 'G-Build plus Core and Adv Queries'.
+The initial build and project queries are in the file 'JDornan-silversmithUK-mods.sql'.
 <br><br>
-See the 'EER diagram.png' for the visual layout of the project.
+See the 'EER-Diag.png' for the visual layout of the project.
 <br><br>
-The mysqldump is 'JewelleryStore.sql' - use this to restore the database.
-For macOS machines see the instruction file 'mysqldump on Apple mac.rtfd'
+The mysqldump is 'JewelleryStore_mods.sql' - use this to restore the database.
+For macOS machines see the instruction file 'mysqldump on Apple mac - mods.rtfd' of
+how to create a mysqldump.
 <br><br>
