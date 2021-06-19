@@ -12,7 +12,8 @@ The queries and data analysis are outlined the file, 'Project Requirements.png'.
 <br><br>
 Some visual analysis can be seen in the 'G-Tableau' folder.
 <br><br>
-The initial build and project queries are in the file 'JDornan-silversmithUK-mods.sql'.
+The initial build and project queries are in the file 'JDornan-silversmithUK-mods.sql'.<br>
+This file also doubles as a presentation.
 <br><br>
 See the 'My EER Diagram.png' for the visual layout of the project.
 <br><br>
