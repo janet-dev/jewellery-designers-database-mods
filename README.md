@@ -16,7 +16,7 @@ The initial build and project queries are in the file 'JDornan-silversmithUK-mod
 <br><br>
 See the 'My EER Diagram.png' for the visual layout of the project.
 <br><br>
-The mysqldump is 'JewelleryStore_mods.sql' - use this to restore the database.
+The mysqldump is 'JewelleryStore_mods.sql' - use this to restore the database.<br>
 For macOS machines see the instruction file 'mysqldump-macOS-mods.txt' of
 how to create a mysqldump.
 <br><br>
