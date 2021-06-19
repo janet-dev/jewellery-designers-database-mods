@@ -1,0 +1,85 @@
+Janet’s notes for macOS Catalina v10.15.5
+MySQL Workbench: 8.0 Build 8.0.22
+Server: 8.0.24 (MySQL Community Server - GPL)
+
+Note: macOS sometimes blocks the installing of current versions of software.
+On this occasion I had to download a previous version of MySQL Server.
+
+mysqldump
+---------
+
+On my macOS, mysqldump is found here on the Macintosh HD…
+
+Applications/MySQLWorkbench.app/Contents/MacOS/
+
+	mysql
+	mysqldump
+	MySQLWorkbench
+
+
+Watch this YouTube clip first…
+https://www.youtube.com/watch?v=BsKXzm6qbcM&t=1s
+
+Open the macOS Terminal from the Launchpad.
+
+Use cd to navigate to the directory where your database is. Mine is here…
+
+janetsmac$ cd Documents/___NewCareer/__CodeFirstGirls/MySQL/MySQL-Project/
+
+Point to where the mysqldump executable file is.
+
+Mine is in /Applications/MySQLWorkbench.app/Contents/MacOS/  so I typed in…
+
+janetsmac$ export PATH=${PATH}:/Applications/MySQLWorkbench.app/Contents/MacOS/
+
+Log into the mysql Shell. (root is my SQL Server username)
+NOTE: you may not see your entry. Make sure CAPS is not on & just trust your typing!!
+
+janetsmac$ mysql -u root -p
+	Enter password: <YOUR SQL SERVER PASSWORD>
+
+You will see something like this..
+	Welcome to the MySQL monitor.  Commands end with ; or \g.
+	Your MySQL connection id is 1194
+	Server version: 8.0.24 MySQL Community Server - GPL
+
+Check to see if your database is here…
+
+mysql> show databases ;
+
++--------------------+
+| Database           |
++--------------------+
+| PARTS              |
+| performance_schema |
+| pizza_customers    |
+| SHOP               |
+| silversmithUK_mods |
++--------------------+
+
+
+Exit out of the mysql Shell, as mysqldump runs from the macOS Terminal…
+mysql> exit
+
+
+Run mysqldump from the macOS Terminal
+
+janetsmac$ mysqldump -u root -p silversmithUK_mods > JewelleryStore_mods.sql
+	Enter password: <YOUR SQL SERVER PASSWORD>
+
+Check to see if the new file has been created…
+
+janetsmac$ ls
+	JewelleryStore_mods.sql
+
+You can look at it using a text editor.
+
+
+References
+----------
+
+https://dyclassroom.com/reference-database/how-to-backup-and-restore-mysql-or-mariadb-database-using-mysqldump
+
+https://phoenixnap.com/kb/mysql-command-not-found-error#ftoc-heading-4
+
+https://stackoverflow.com/questions/19281026/error-106442000-while-trying-to-execute-mysqldump-command
