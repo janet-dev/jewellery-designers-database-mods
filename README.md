@@ -1,10 +1,9 @@
 # jewellery-designers-database-mods
-CFG: SQL project improvements
 <br><br>
-CFG Project: MySQL database for a jewellery designer's store.
+MySQL database for a jewellery designer's store.
 <br><br>
 This is a MySQL relational database for a jewellery designer who hand crafts
-her own designs. This was built for the Code First Girls 'Data & SQL' course June 2021.
+her own designs.
 <br><br>
 Initially five tables were built with primary and foreign keys.
 <br><br>
